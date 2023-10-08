@@ -1,0 +1,79 @@
+** start of undefined **
+
+<h1 id=title>freeCodeCamp Survey Form
+</h1>
+<p id=description>Thank you for taking the time to help us improve the platform
+</p>
+<form id=survey-form>
+
+  <label id=name-label>Name</label>
+    <input id=name placeholder="Enter your name" required></input>
+
+    <br/><br/>
+
+  <label id=email-label>Email</label>
+    <input id=email type=email placeholder="Enter your email" required></input>
+
+    <br/><br/>
+
+  <label id=number-label>Age</label>
+    <input id=number type=number min=0 max=130 placeholder="Age" required></input>
+
+    <br/><br/>
+
+  <label id=role-label>Which option best describes your current role?
+    <select id=dropdown>
+    <option value="">(select one)</option>
+    <option value="1">Hero</option>
+    <option value="2">Villain</option>
+    required</select>
+</label>
+
+    <br/><br/>
+
+    <label id=recommend-label>Would you recommend freeCodeCamp to a friend?</label>
+
+    <br/><br/>
+
+<label id=name-label>Heck Yeah!</label>
+   <input id=name type="radio" name="answer" value="1" required></input> 
+
+    <br/><br/>
+
+<label id=name-label>Nope nope!</label>
+    <input id=name type="radio" name="answer" value="0" required></input>
+
+    <br/><br/>
+
+    <input id="terms-and-conditions" type="checkbox" value="1" required name="terms-and-conditions" class="inline" /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+
+    <br/><br/>
+
+    <input id="terms-and-conditions" type="checkbox" value="0" required name="terms-and-conditions" class="inline" /> I don't accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions </a>
+    
+    <br/><br/>
+
+<label for="bio">Favorite Coding Language:
+          <textarea id="lang" name="lang" rows="1" cols="30" placeholder="I like coding with . . ."></textarea>
+        </label>
+
+     <br/><br/>
+
+<label id=submit-label></label>
+    <input id=submit type="submit" value="Submit" />
+
+
+
+
+
+
+
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
